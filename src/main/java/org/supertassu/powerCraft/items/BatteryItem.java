@@ -4,8 +4,12 @@ import java.util.List;
 
 import org.supertassu.powerCraft.Main;
 
+import cpw.mods.fml.common.registry.GameRegistry;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.client.resources.Locale;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
@@ -31,9 +35,9 @@ public class BatteryItem extends Item {
 	
 	@Override
 	public IIcon getIconFromDamage(int meta) {
-	    if (meta > 5)
+	    if (meta > 5) {
 	        meta = 0;
-
+	    }
 	    return this.icons[meta];
 	}
 
@@ -48,4 +52,5 @@ public class BatteryItem extends Item {
 	public String getUnlocalizedName(ItemStack stack) {
 	    return this.getUnlocalizedName() + "_" + stack.getItemDamage();
 	}
+
 }
