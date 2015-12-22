@@ -1,0 +1,7 @@
+item.battery_0.name=Patteri (Tyhjä)
+item.battery_1.name=Patteri (1/4)
+item.battery_2.name=Patteri (1/2)
+item.battery_3.name=Patteri (3/4)
+item.battery_4.name=Patteri (Täysi)
+tile.chargeStadion.name=Latausasema
+itemGroup.power=Sähkö
