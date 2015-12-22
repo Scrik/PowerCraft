@@ -11,6 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 
 public class BatteryItem extends Item {
+	
 	public BatteryItem(String unlocalizedName) {
         super();
         this.setHasSubtypes(true);
@@ -41,5 +42,10 @@ public class BatteryItem extends Item {
 	    for (int i = 0; i < 5; i ++) {
 	        list.add(new ItemStack(item, 1, i));
 	    }
+	}
+	
+	@Override
+	public String getUnlocalizedName(ItemStack stack) {
+	    return this.getUnlocalizedName() + "_" + stack.getItemDamage();
 	}
 }

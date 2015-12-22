@@ -1,3 +1,7 @@
-item.battery.name=Battery
+item.battery_0.name=Battery (Empty)
+item.battery_1.name=Battery (25%)
+item.battery_2.name=Battery (50%)
+item.battery_3.name=Battery (75%)
+item.battery_4.name=Battery (Full)
 tile.chargeStadion.name=Charge Stadion
 itemGroup.power=Power
