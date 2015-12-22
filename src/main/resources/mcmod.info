@@ -1,0 +1,18 @@
+[
+{
+  "modid": "powercraft",
+  "name": "PowerCraft",
+  "description": "Adds power to minecraft.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://supertassu.org",
+  "updateUrl": "",
+  "authorList": ["supertassu"],
+  "credits": "_Bedrock_Miner_ for modding tutorials",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [
+  
+  ]
+}
+]
