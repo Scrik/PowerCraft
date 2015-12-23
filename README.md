@@ -9,7 +9,7 @@ Coming soon.
 ### For modder
 ''Note!'' Commands are for *nix operating systems.
 - Clone this repo to empty directory.
-```$ git clone https://github.com/supertassu/PowerCraft.git<br>
+```$ git clone https://github.com/supertassu/PowerCraft.git``````
 $ cd PowerCraft```
 - Update classpath.
 ```$ ./gradlew setuDecompWorkspace 
